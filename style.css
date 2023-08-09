@@ -1,0 +1,144 @@
+/* html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: "Inter", sans-serif;
+
+}
+
+.cart-div {
+
+  height: 80%;
+  width: 22%;
+  border: 0px solid #61B846;
+  border-radius: 30px;
+
+
+  margin-top: 5%;
+  margin-left: 38%;
+  text-align: center;
+  box-shadow: 0 0 20px #61B846;
+}
+
+
+
+.cart-div img {
+
+
+
+ 
+
+  margin: 30% 15%;
+  width: 75%;
+  height: 30%;
+
+}
+
+h3 {
+  font-size: 25px;
+  margin-top: 2px ;
+
+
+  font-weight: bolder;
+
+
+  color: #56a43f ;
+
+
+}
+
+h5 {
+
+  color: #024F9D ;
+
+  font-size: 13px;
+  font-weight: bolder;
+
+}
+
+button {
+  background-color: #56a43f;
+  color: aliceblue;
+  border: 0;
+  border-radius: 10px;
+  width: 50%;
+  height: 7%;
+  margin-top: 10%;
+  font-weight: bolder;
+  cursor: pointer;
+  box-shadow: 1px 5px 5px 2px #4a893791;
+} */
+
+
+
+
+body, html {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  /* font-family: "Inter", sans-serif; */
+}
+
+.cart-div {
+  height: 80vh;
+  width: 80%; /* Adjust width for smaller screens */
+  max-width: 300px; /* Limit maximum width */
+  border: 0px solid #61B846;
+  border-radius: 30px;
+  margin: 10% auto; /* Center horizontally */
+  text-align: center;
+  box-shadow: 0 0 20px #61B846;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.cart-div img {
+  margin: 20% 0; /* Adjust margins */
+  width: 60%; /* Adjust image size */
+  height: auto; /* Maintain aspect ratio */
+}
+
+h3 {
+  font-size: 20px; /* Adjust font size */
+  margin-top: 10px; /* Adjust margin */
+  font-weight: bolder;
+  color: #56a43f;
+}
+
+h5 {
+  font-size: 12px; /* Adjust font size */
+  color: #024F9D;
+  font-weight: bolder;
+}
+
+button {
+  background-color: #56a43f;
+  color: aliceblue;
+  border: 0;
+  border-radius: 10px;
+  width: 70%; /* Adjust button width */
+  height: 45px; /* Adjust button height */
+  margin-top: 15px; /* Adjust margin */
+  font-weight: bolder;
+  cursor: pointer;
+  box-shadow: 1px 5px 5px 2px #4a893791;
+
+
+
+
+}
+
+.hi{
+  text-decoration: none ;
+color: antiquewhite ; 
+text-decoration-line: none ;
+}
+p, a{
+  color: #024F9D;
+  text-decoration: none ;
+  font-size: small;
+  font-weight: bold;
+}

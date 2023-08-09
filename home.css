@@ -1,0 +1,108 @@
+/* .cart-home{
+  display: flex;
+  
+     height: 100vh;
+  width: 98%; /* Adjust width for smaller screens */
+  /* max-width: 3000px; Limit maximum width */
+  /* border: 0px solid #61B846;
+  border-radius: 30px;
+  margin: 1% 1%; 
+  text-align: center;
+  box-shadow: 0 0 20px #61B846;
+  display: flex;
+  /* flex-direction: column; */
+  /* justify-content: center; */
+  /* align-items: center; */
+
+
+h3 {
+  display: inline;
+    font-size: 50px; /* Adjust font size */
+    margin-top: 50px; 
+    padding-left: 80px;
+    font-weight: bolder;
+    color: #56a43f;
+  }
+  
+  h5 {
+    font-size: 20px; /* Adjust font size */
+    color: #024F9D;
+    font-weight: bolder;
+    padding-left: 80px;
+    text-align: left;
+  }
+
+
+  .cart-img {
+    
+    width:10% ;
+    height: 20%;
+    float: right;
+    padding-right: 2%;
+    margin-top: 1%;
+    max-width: 300px;
+}
+.grocery-pic{
+  display: flex;
+  width: 80%;
+  margin: 50px auto;
+
+}
+
+.card-img-top{
+
+ width: 40%;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+.card{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 0;
+  
+}
+.card-title{
+  justify-content: center;
+  align-items: center;
+  font-size: x-small;
+  color: #56a43f;
+  padding-left:1px ;
+}
+
+.mb-3{
+margin-left: 30%;
+width: 50%
+
+}
+
+@media (max-width: 768px) {
+  /* Adjust styles for screens up to 768px wide */
+  h3 {
+      font-size: 30px;
+      padding-left: 20px;
+  }
+
+  h5 {
+      font-size: 18px;
+      padding-left: 20px;
+  }
+
+  .cart-img {
+      width: 15%;
+      height: auto;
+      float: right;
+      padding-right: 2%;
+      margin-top: 2%;
+      max-width: 100px;
+  }}
+
+
+
+
+
+
+
+
+  
