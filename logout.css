@@ -1,0 +1,74 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+ 
+}
+.container {
+    text-align: center;
+}
+
+ h1{
+    color: #024F9D;
+    font-weight: bolder;
+    padding-left: 10px;
+    text-align: left;
+    margin-left: 20px;
+    font-family: "Inter";
+ }   
+button {
+    /* display: flex; */
+    background-color: #56a43f;
+    color: aliceblue;
+    border: 0;
+    border-radius: 10px;
+    width: 50%; /* Adjust button width */
+    height: 45px; /* Adjust button height */
+
+    font-weight: bolder;
+    cursor: pointer;
+    box-shadow: 1px 5px 5px 2px #4a893791;
+  
+  
+
+
+
+    .navbar {
+        background-color: #f8f9fa;
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+        text-align: center;
+        padding: 10px 0;
+    }    
+  
+  
+  }
+  .logout-button {
+    background-color: #36891d;
+    border: none;
+    margin-top: 20%;
+}
+
+
+.navbar {
+    background-color: #f8f9fa;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+.navbar img {
+    margin: 0 10px;
+    width: 24px;
+    height: 24px;
+}
+.navbar-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+

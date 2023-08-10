@@ -1,0 +1,146 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+h3 {
+    display: inline;
+      font-size: 80px; /* Adjust font size */
+      margin-top: 80px; 
+      padding-left: 80px;
+      font-weight: bolder;
+      color: #56a43f;
+      /* margin-top: 20%; */
+    }
+    
+    h5 {
+      font-size: 40px; /* Adjust font size */
+      color: #024F9D;
+      font-weight: bolder;
+      padding-left: 80px;
+      text-align: left;
+      margin-top: 2%;
+    }
+    .cart-img {
+    
+        width:8% ;
+        height: 20%;
+        float: right;
+        padding-right: 3%;
+        margin-top: 2%;
+        max-width: 300px;
+        
+    }
+
+
+
+    
+button {
+    /* display: flex; */
+    background-color: #56a43f;
+    color: aliceblue;
+    border: 0;
+    border-radius: 10px;
+    width: 50%; /* Adjust button width */
+    height: 45px; /* Adjust button height */
+    margin-top: 15px; /* Adjust margin */
+    margin-left: 30%; /* Adjust margin */
+    font-weight: bolder;
+    cursor: pointer;
+    box-shadow: 1px 5px 5px 2px #4a893791;
+  
+  
+  
+  
+  }
+  
+  .hi{
+    text-decoration: none ;
+  color: antiquewhite ; 
+  text-decoration-line: none ;
+  }
+
+
+
+
+    .card{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        /* border: 0; */
+      
+        
+      }
+      .card-title{
+        justify-content: center;
+        align-items: center;
+        font-size: medium;
+        color: #56a43f;
+        padding-left:1px ;
+      }
+      
+      .mb-3{
+      margin-left: 30%;
+      width: 50%;
+      
+      
+      }
+      .img-fluid{
+        border-radius: 15px;
+      background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+      box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.374);
+      margin: 8% ;
+      }
+
+
+
+
+      .bottext{
+        color: wheat;
+        margin: 25% ;
+      padding: 50px;
+        
+      }
+      
+      .plus{
+        width: 20%;
+        float: right;
+        border-radius: 10%;
+        font-weight: 900;
+        font-size: 25px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+
+
+
+      .hry{
+        margin:  60px;
+        padding-left: 15%;
+        
+       }
+      
+      
+      
+      
+      
+       @media (max-width: 768px) {
+        
+       .hry{
+        margin:  30px;
+        padding-left:2%;
+        
+       }
+       }
+       @media (max-width: 560px) and (min-width: 760px) {
+        .hry{
+          margin:  60px;
+          padding-left: 15%;
+          
+         }
+      }
+      
