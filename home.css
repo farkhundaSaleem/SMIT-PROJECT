@@ -35,17 +35,19 @@ h3 {
 
   .cart-img {
     
-    width:10% ;
+    width:8% ;
     height: 20%;
     float: right;
-    padding-right: 2%;
-    margin-top: 1%;
+    padding-right: 3%;
+    margin-top: 2%;
     max-width: 300px;
+    
 }
 .grocery-pic{
   display: flex;
   width: 80%;
   margin: 50px auto;
+  border-radius: 25px;
 
 }
 
@@ -55,27 +57,149 @@ h3 {
   justify-content: center;
   align-items: center;
   cursor: pointer;
+  border: 2px solid rgb(22, 151, 22);
+  border-radius: 25px 25px !important; 
+  margin-top: 5%;
+  
 }
 .card{
   display: flex;
   justify-content: center;
   align-items: center;
-  border: 0;
+  /* border: 0; */
+
   
 }
 .card-title{
   justify-content: center;
   align-items: center;
-  font-size: x-small;
+  font-size: medium;
   color: #56a43f;
   padding-left:1px ;
 }
 
 .mb-3{
 margin-left: 30%;
-width: 50%
+width: 50%;
+
 
 }
+
+
+.navbar{
+  height: 10%;
+}
+.bottext{
+  color: wheat;
+  margin: 25% ;
+padding: 50px;
+  
+}
+
+.plus{
+  width: 20%;
+  float: right;
+  border-radius: 10%;
+  font-weight: 900;
+  font-size: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.ccc{
+  color: #000;
+/* text-align: left; */
+margin-left: 5%;
+margin-top: 5%;
+font-size: 20px;
+font-style: normal;
+font-weight: 700;
+line-height: 30px; /* 208.333% */
+}
+.card-text{
+  color: #BFBFBF;
+/* font-family: Inter; */
+
+font-size: 12px;
+font-weight: bolder;
+/* font-weight: 400; */
+line-height: 500%;  /* 100% */
+margin-left:10% ;
+}
+.img-fluid{
+  border-radius: 15px;
+background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.374);
+margin: 8% ;
+}
+
+
+
+
+
+
+
+ .hry{
+  margin:  60px;
+  padding-left: 15%;
+  
+ }
+
+
+
+
+
+ @media (max-width: 768px) {
+  
+ .hry{
+  margin:  30px;
+  padding-left:2%;
+  
+ }
+ }
+ @media (max-width: 560px) and (min-width: 760px) {
+  .hry{
+    margin:  60px;
+    padding-left: 15%;
+    
+   }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 @media (max-width: 768px) {
   /* Adjust styles for screens up to 768px wide */
@@ -97,6 +221,7 @@ width: 50%
       margin-top: 2%;
       max-width: 100px;
   }}
+
 
 
 
